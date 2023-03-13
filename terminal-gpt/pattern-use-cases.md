@@ -1,7 +1,7 @@
-### Pattern user's guidance
+## Pattern user's guidance
 
 
-#### Create a pattern
+### Create a pattern
 
 ```bash
 1gpt pattern -c Rapper
@@ -16,7 +16,7 @@ You can use above command to create a pattern called Rapper
 <br/>
 
 
-#### Use a pattern
+### Use a pattern
 
 ```bash
 1gpt pattern -u Rapper
@@ -33,11 +33,11 @@ You can use the above command to open the `Rapper` pattern, and go directly into
 <br/>
 
 
-#### Pattern system
+### Pattern system
 
 The `Question` you entered for the first time will be used as the system of the pattern.
 
-> In this example, I will enter a prompt to designate chatGPT as the Rapper system. This prompt is copied from (awesome-chatgpt-prompts)[https://github.com/f/awesome-chatgpt-prompts] repo.
+> In this example, I will enter a prompt to designate chatGPT as the Rapper system. This prompt is copied from [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) repo.
 
 <p align="center">
   <img src="./system.png"/> 
@@ -46,7 +46,7 @@ The `Question` you entered for the first time will be used as the system of the 
 <br/>
 
 
-#### Continue chatting
+### Continue chatting
 
 Now we have a pattern called `Rapper` and we have assigned the system to it. The pattern can store your conversation and continue the previous conversation the next time the pattern is enabled.
 
@@ -58,7 +58,7 @@ In the example above, when you open a pattern again, the content of your last co
 
 <br/>
 
-#### Show pattern list
+### Show pattern list
 
 ```bash
 1gpt pattern -l
@@ -71,7 +71,7 @@ Using the above command will display all existing patterns.
 </p>
 
  
-#### Remove pattern list
+### Remove a pattern
 
 ```bash
 1gpt pattern -r ‘Motivational Speaker’
@@ -80,3 +80,7 @@ Using the above command will display all existing patterns.
 We can use the above command to delete the pattern named "Motivational Speaker".
 
 > Same as `-u`, if you do not enter the specified pattern name, an optional list will be displayed.
+
+### End
+
+Hope you enjoy this new feature！
