@@ -70,6 +70,7 @@ Using the above command will display all existing patterns.
   <img src="./list.png"/> 
 </p>
 
+<br/>
  
 ### Remove a pattern
 
@@ -80,6 +81,12 @@ Using the above command will display all existing patterns.
 We can use the above command to delete the pattern named "Motivational Speaker".
 
 > Same as `-u`, if you do not enter the specified pattern name, an optional list will be displayed.
+
+<p align="center">
+  <img src="./remove.png"/> 
+</p>
+
+<br/>
 
 ### End
 
